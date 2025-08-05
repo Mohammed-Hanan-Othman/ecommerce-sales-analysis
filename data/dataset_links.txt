@@ -1,0 +1,2 @@
+https://www.kaggle.com/datasets/refiaozturk/e-commerce-sales
+https://www.kaggle.com/datasets/fahmidachowdhury/e-commerce-sales-analysis
