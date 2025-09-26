@@ -15,6 +15,8 @@ This project analyzes sales data from retail store to uncover customer behavior 
 ├── dashboard/ Dashboards created as part of analysis
 ├── data/ Data set information
 ├── notebooks/ Notebooks used for analysis
+│   └── 00_data_cleaning.ipynb
+│   └── 01_customer_behavior_analysis.ipynb
 ├── reports/ Reports generated as part of analysis
 ├── README.md # This file
 └── .requirements.txt # Contains libraries and their versions as used
