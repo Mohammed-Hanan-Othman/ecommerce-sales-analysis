@@ -3,21 +3,27 @@
 This project analyzes sales data from retail store to uncover customer behavior patterns, product trends, and opportunities for revenue growth.
 
 ## ⚡ Goals
+- Track orders and revenue growth over time and over different demographics.
+- Analyze customer purchasing patterns monthly and quarterly.
 - Identify top-selling products by quantity and revenue
-- Analyze customer purchasing patterns by country and time
-- Detect unusual transactions or potential returns
-- Build a dashboard to track key business metrics
+- Understand the impact of shipping on orders and revenue.
+- Explore potential areas to increase revenue.
+- Build a dashboard and report pages to track key business metrics.
 
 ## 📁 Project Structure
 
 <pre>
 .
-├── dashboard/ Dashboards created as part of analysis
-│   └── 1_sales_trends_analysis.pbix
+├── dashboard/ Power BI Dashboards and pages created as part of analysis
+│   └── 1_customer_behaviour_analysis.pbix
+│   └── 2_sales_trends.pbix
+│   └── 3_product_performance.pbix
 ├── data/ Data set information
 ├── notebooks/ Notebooks used for analysis
-│   └── 00_data_cleaning.ipynb
-│   └── 01_customer_behavior_analysis.ipynb
+│   └── 0.data_cleaning.ipynb
+│   └── 1.customer_behaviour_analysis.ipynb
+│   └── 2.sales_trends.ipynb
+│   └── 3.product_performance.ipynb
 ├── reports/ Reports generated as part of analysis
 ├── .gitignore Files to ignore by GitHub
 ├── README.md # This file
@@ -30,7 +36,31 @@ Refer to the `data/` folder for details
 
 ## 🚀 How to Run
 
-Instructions on how to run any code from the repository would be updated soon
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/Mohammed-Hanan-Othman/ecommerce-sales-analysis.git
+cd ecommerce-sales-analysis
+```
+
+2. **Installation and Setup:**
+
+This assumes an anaconda environment.
+
+3. **Obtaining Dataset**
+
+Refer to `data/dataset_links.txt` file to download and save the dataset
+
+4. **Open notebook**
+
+- Open any of the notebooks. For instance:
+``` bash
+jupyter notebook notebooks/1.customer_behaviour_analysis.ipynb
+```
+
+5. **Run:**
+    - Run all cells to reproduce the results.
+
 
 ## Contributing
 Contributions are welcome. To contribute:
