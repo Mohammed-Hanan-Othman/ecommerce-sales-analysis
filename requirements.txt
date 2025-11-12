@@ -1,1 +1,3 @@
-# This file would contain the libraries used, as well as their versions.
+# This project setup assumes an anaconda environment
+pandas
+matplotlib
