@@ -20,14 +20,14 @@ This project analyzes sales data from retail store to uncover customer behavior 
 │   └── 3_product_performance.pbix
 ├── data/ Data set information
 ├── notebooks/ Notebooks used for analysis
-│   └── 0.data_cleaning.ipynb
-│   └── 1.customer_behaviour_analysis.ipynb
-│   └── 2.sales_trends.ipynb
-│   └── 3.product_performance.ipynb
-├── reports/ Reports generated as part of analysis
+│   └── 0_data_cleaning.ipynb
+│   └── 1_customer_behaviour_analysis.ipynb
+│   └── 2_sales_trends.ipynb
+│   └── 3_product_performance.ipynb
+├── reports/ PDF Reports generated as part of analysis
 ├── .gitignore Files to ignore by GitHub
 ├── README.md # This file
-└── .requirements.txt # Contains libraries and their versions as used
+└── .requirements.txt # Contains libraries as used
 </pre>
 
 ##  📊 Dataset
@@ -55,7 +55,7 @@ Refer to `data/dataset_links.txt` file to download and save the dataset
 
 - Open any of the notebooks. For instance:
 ``` bash
-jupyter notebook notebooks/1.customer_behaviour_analysis.ipynb
+jupyter notebook notebooks/1_customer_behaviour_analysis.ipynb
 ```
 
 5. **Run:**
